@@ -1,0 +1,23 @@
+.course1 {
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+/* ============= MEDIA QUERY (TABLET) ============= */
+@media screen and (max-width: 1024px) {
+    .course1 {
+        padding-bottom: 0;
+    }
+
+    iframe {
+        width: 90%;
+    }
+}
+
+/* ============= MEDIA QUERY (PHONE) ============= */
+@media screen and (max-width: 600px) {
+    iframe {
+        width: 90%;
+    }
+}
